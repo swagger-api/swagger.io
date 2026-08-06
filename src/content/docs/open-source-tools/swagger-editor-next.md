@@ -5,26 +5,6 @@ sidebar:
   order: 2
 ---
 
-
-SwaggerEditor is using [**forked** Create React App](https://github.com/swagger-api/swagger-editor-cra/) as it's building infrastructure.
-
-## Anonymized analytics
-
-Swagger Editor uses [Scarf](https://scarf.sh/) to collect [anonymized installation analytics](https://github.com/scarf-sh/scarf-js?tab=readme-ov-file#as-a-user-of-a-package-using-scarf-js-what-information-does-scarf-js-send-about-me). These analytics help support the maintainers of this library and ONLY run during installation. To [opt out](https://github.com/scarf-sh/scarf-js?tab=readme-ov-file#as-a-user-of-a-package-using-scarf-js-how-can-i-opt-out-of-analytics), you can set the `scarfSettings.enabled` field to `false` in your project's `package.json`:
-
-```json
-// package.json
-{
-  // ...
-  "scarfSettings": {
-    "enabled": false
-  }
-  // ...
-}
-```
-
-Alternatively, you can set the environment variable `SCARF_ANALYTICS` to `false` as part of the environment that installs your npm packages, e.g., `SCARF_ANALYTICS=false npm install`.
-
 ## Getting started
 
 ### Prerequisites
